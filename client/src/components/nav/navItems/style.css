@@ -1,0 +1,16 @@
+.NavItems {
+    padding-right: 60px;
+    font-size: 2.0rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavItems-LI {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    box-sizing: border-box;
+    float: right;
+}
