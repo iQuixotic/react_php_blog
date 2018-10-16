@@ -22,6 +22,7 @@ export { default as Toolbar } from './nav/toolbar/toolbar';
 // export * from UI
 // export { default as Button } from './UI/button/button';
 // export { default as Input } from './UI/input/input';
+export { default as DropDown } from './UI/dropdown/dropDown';
 
 // export * from visual
 export { default as Backdrop } from './visual/backdrop/backdrop';
