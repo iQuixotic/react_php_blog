@@ -31,7 +31,7 @@
     padding: 17px 17px 8px;
 }
 
-.Toolbar-Nav a:hover, .Toolbar a:active {    
+.toolbar-nav a:hover, .toolbar a:active {    
     border-bottom: 4px solid rgb(53, 207, 53);
     border-radius: 15px 15px 0 0;
     background-color: #31558b77;
@@ -39,18 +39,18 @@
 
 @media only screen and (max-width: 995px) {
     
-    .Toolbar-Nav {
+    .toolbar-nav {
         margin-top: 62px;
     }
 
-    .Toolbar-Nav a {
+    .toolbar-nav a {
         padding: 15px 15px 12px;
     }
 }
 
 @media only screen and (max-width: 768px) {
 
-    .Toolbar-Nav {
+    .toolbar-nav {
         width: 25%;
     }
 } 

@@ -1,11 +1,14 @@
 import * as React from "react";
 import './style.css';
+import { NavItem } from '../../../components';
 
 const NavItems = (props) => {
     return (
         <ul id={props.id} className='NavItems'>
-            <li  className='NavItems-LI'><a href={props.link1}>{props.nav1}</a></li>      
-            <li  className='NavItems-LI'><a href={props.link2}>{props.nav2}</a></li>                                 
+            <NavItem link='/'>PHP</NavItem>      
+            <NavItem link='/'>Javascript</NavItem>                            
+            <NavItem link='/'>CSS</NavItem>                            
+
         </ul>
     );
 }
