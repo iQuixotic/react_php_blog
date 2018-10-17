@@ -1,4 +1,4 @@
-.Toolbar {
+.toolbar {
     top: 0;
     left: 0;
     color: white;
@@ -9,7 +9,7 @@
     width: 100%;
 }
 
-.Toolbar-Main {
+.toolbar-main {
     width: 100%;
     top: 0;
     position: absolute;
@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.Toolbar-Nav {
+.toolbar-nav {
     position: relative;
     margin-top: 6rem;
     z-index: 105;
@@ -26,8 +26,8 @@
     float: right;
 }
 
-.Toolbar-Nav a {
-    color: white;
+.toolbar-nav a {
+    color: black;
     padding: 17px 17px 8px;
 }
 

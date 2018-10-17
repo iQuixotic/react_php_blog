@@ -13,14 +13,12 @@ class Main extends React.Component {
     return (
       <Layout>
         {/* <Toolbar></Toolbar> */}
-        
         <h1>{this.state.headLine}</h1>
         <DropDown>
           <option>here</option>
           <option>there</option>
           <option>where</option>
         </DropDown>
-
       </Layout>
     );
   }

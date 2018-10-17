@@ -4,12 +4,12 @@ import './style.css';
 
 const Toolbar = (props) => {
     return (
-        <nav className='Toolbar'>
-            <div className="Toolbar-Main">
+        <nav className='toolbar'>
+            <div className="toolbar-main">
                 Zenith Holdings
             </div>
 
-            <div className="Toolbar-Nav">
+            <div className="toolbar-nav">
                 <NavItems
                     nav1="Accounts" link1='/'
                     nav2="New" link2='/new'
