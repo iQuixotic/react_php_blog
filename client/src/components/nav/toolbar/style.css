@@ -1,12 +1,13 @@
 .toolbar {
     top: 0;
     left: 0;
-    color: white;
-    background: rgb(13, 42, 105);
+    /* color: white; */
+    background: rgb(253, 253, 253);
     height: 100px;
     position: fixed;
     z-index: 100;
     width: 100%;
+    border-bottom: 1px solid rgb(197, 197, 197);
 }
 
 .toolbar-main {
@@ -17,7 +18,7 @@
     font-size: 4rem;
     text-align: center;
 }
-
+/*
 .toolbar-nav {
     position: relative;
     margin-top: 6rem;
@@ -53,4 +54,4 @@
     .toolbar-nav {
         width: 25%;
     }
-} 
+}  */

@@ -5,10 +5,9 @@ import { NavItem } from '../../../components';
 const NavItems = (props) => {
     return (
         <ul id={props.id} className='NavItems'>
-            <NavItem link='/'>PHP</NavItem>      
-            <NavItem link='/'>Javascript</NavItem>                            
-            <NavItem link='/'>CSS</NavItem>                            
-
+            <NavItem link='/lang=php'>PHP</NavItem>      
+            <NavItem link='/lang=js'>Javascript</NavItem>                            
+            <NavItem link='/lang=css'>CSS</NavItem>             
         </ul>
     );
 }

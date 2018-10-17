@@ -10,10 +10,7 @@ const Toolbar = (props) => {
             </div>
 
             <div className="toolbar-nav">
-                <NavItems
-                    nav1="Accounts" link1='/'
-                    nav2="New" link2='/new'
-                />
+            
             </div>
             {props.children}
         </nav>
