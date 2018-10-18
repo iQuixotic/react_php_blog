@@ -1,41 +1,22 @@
-.toolbar {
+/* .toolbar {
+  border-bottom: 1px solid rgb(0, 255, 64);
+} */
+
+.toolbar-sticky {
+    position: fixed;
     top: 0;
     left: 0;
-    /* color: white; */
-    background: rgb(253, 253, 253);
-    height: 100px;
-    position: fixed;
-    z-index: 100;
     width: 100%;
-    border-bottom: 1px solid rgb(197, 197, 197);
+    height: 40px;
+    font-size: 2.5rem;
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 255, 64);
 }
 
-.toolbar-main {
-    width: 100%;
-    top: 0;
-    position: absolute;
-    z-index: 105;
-    font-size: 4rem;
-    text-align: center;
-}
-/*
-.toolbar-nav {
-    position: relative;
-    margin-top: 6rem;
-    z-index: 105;
-    width: 22%;
-    float: right;
-}
-
-.toolbar-nav a {
-    color: black;
-    padding: 17px 17px 8px;
-}
-
-.toolbar-nav a:hover, .toolbar a:active {    
-    border-bottom: 4px solid rgb(53, 207, 53);
-    border-radius: 15px 15px 0 0;
-    background-color: #31558b77;
+.toolbar-bottom {
+    margin-top: 40px;
+    background-color: white;
+    border-bottom: 1px solid rgb(0, 255, 64);
 }
 
 @media only screen and (max-width: 995px) {
@@ -54,4 +35,4 @@
     .toolbar-nav {
         width: 25%;
     }
-}  */
+}  

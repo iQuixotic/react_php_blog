@@ -33,7 +33,7 @@ import * as React from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import { 
-  Main,
+  Main, CSharp, CSSLang, Javascript, PHPLang, HTMLLang
 } from '../containers';
 
 class App extends React.Component {
@@ -41,9 +41,15 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          <Route exact={true} path="/" component={Main} />
-          {/* <Route exact={true} path="/id/:id" component={Ledger} />
-          <Route exact={true} path="/new" component={Add} /> */}
+        <Route exact={true} path="/" component={Main} />
+
+          <Route exact={true} path="/lang=c-sharp" component={CSharp} />
+          <Route exact={true} path="/lang=html" component={HTMLLang} />
+          <Route exact={true} path="/lang=css" component={CSSLang} />
+          <Route exact={true} path="/lang=js" component={Javascript} />
+          <Route exact={true} path="/lang=php" component={PHPLang} />
+
+
         </div>
       </Router>
     );

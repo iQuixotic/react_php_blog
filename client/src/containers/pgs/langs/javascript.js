@@ -4,9 +4,9 @@ import { Layout} from "../../../containers";
 
 import './style.css';
 
-class Main extends React.Component {
+class Javascript extends React.Component {
     state = {
-        headLine: 'the best message ever'
+        headLine: 'this is Javascript, the only language I know.'
     }
 
   render() {
@@ -45,4 +45,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default Javascript;

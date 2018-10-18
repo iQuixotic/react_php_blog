@@ -5,12 +5,12 @@ import './style.css';
 const Toolbar = (props) => {
     return (
         <nav className='toolbar'>
-            <div className="toolbar-main">
-                Zenith Holdings
+            <div className="toolbar-sticky">
+                Codecan
             </div>
 
-            <div className="toolbar-nav">
-            
+            <div className="toolbar-bottom">
+                <NavItems />
             </div>
             {props.children}
         </nav>

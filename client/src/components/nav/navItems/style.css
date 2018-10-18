@@ -1,4 +1,4 @@
-.NavItems {
+.nav-items {
     padding-right: 60px;
     font-size: 2.0rem;
     width: 100%;
@@ -6,7 +6,7 @@
     justify-content: space-around;
 }
 
-.NavItems-LI {
+.nav-items-li {
     display: block;
     text-decoration: none;
     list-style: none;

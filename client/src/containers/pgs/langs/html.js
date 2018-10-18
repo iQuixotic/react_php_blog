@@ -4,9 +4,9 @@ import { Layout} from "../../../containers";
 
 import './style.css';
 
-class Main extends React.Component {
+class HTMLLang extends React.Component {
     state = {
-        headLine: 'the best message ever'
+        headLine: 'this is html something, something, the best language'
     }
 
   render() {
@@ -45,4 +45,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default HTMLLang;
