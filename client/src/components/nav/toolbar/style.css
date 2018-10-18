@@ -17,13 +17,28 @@
 .toolbar_logo {
     padding-top: 5px;
     font-size: 2.5rem;
+    width: 40%;
 }
 
 .toolbar_search {
-    top: 7px;
-    position: absolute;
-    left: 40%;
+    width: 25%;
+    margin-top: 7px;
 }
+
+.toolbar_buttons {
+    margin-left: 5%;
+    display: flex;
+}
+
+.mag-glass {
+    display: flex;
+    filter: grayscale(100%);
+    filter: invert(65%);
+    margin: 5px 245px 0;
+    position: absolute;
+}
+
+
 
 .toolbar_bottom {
     margin-top: 40px;

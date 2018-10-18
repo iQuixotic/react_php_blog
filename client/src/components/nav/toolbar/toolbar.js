@@ -1,5 +1,6 @@
 import * as React from "react";
-import { NavItems, Input } from '../../../components';
+import { NavItems, Input, ButtonNB, ButtonS } from '../../../components';
+import {Icon} from 'react-fa';
 import './style.css';
 
 const Toolbar = (props) => {
@@ -10,7 +11,12 @@ const Toolbar = (props) => {
                     Codecan            
                 </div>
                 <div className="toolbar_search">
+                    <span class="mag-glass"><Icon size='2x' name="search" /></span>
                     <Input/>         
+                </div>
+                <div className="toolbar_buttons">
+                    <ButtonNB>Sign Up</ButtonNB>
+                    <ButtonS>Login</ButtonS>
                 </div>
             </div>
             <div className="toolbar_bottom">
