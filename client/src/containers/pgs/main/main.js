@@ -1,6 +1,8 @@
 import * as React from "react";
 import { DropDown } from "../../../components";
 import { Layout} from "../../../containers";
+import * as actionTypes from "../../../store/actions";
+
 
 import './style.css';
 
@@ -33,6 +35,8 @@ class Main extends React.Component {
         <h1>{this.state.headLine}</h1>
         <h1>{this.state.headLine}</h1>
         <h1>{this.state.headLine}</h1>
+        <h1>{this.props.pos}</h1>
+
 
 
         <DropDown>
@@ -43,6 +47,19 @@ class Main extends React.Component {
       </Layout>
     );
   }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    onPostAdded: (arg) => dispatch ({type: actionTypes.ADD_POST, postName: arg}),
+    onPostRemoved: (arg) => dispatch ({type: actionTypes.REMOVE_POST, postName: arg})
+  };
+}
+
+const mapStateToProps = state => {
+  return {
+    pos: state.posts
+  };
 }
 
 export default Main;

@@ -18,7 +18,7 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 posts: {
                     ...state.posts,
-                    [action.postName]: state.posts[action.postName]+1
+                    [action.postName]: state.posts[action.postName]+"hello"
                 }
             }
         case actionTypes.REMOVE_POST:
