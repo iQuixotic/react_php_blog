@@ -1,6 +1,6 @@
 import * as React from "react";
-import { DropDown } from "../../../components";
-import { Layout} from "../../../containers";
+import { DropDown, Panel } from "../../../components";
+import { Layout } from "../../../containers";
 import * as actionTypes from "../../../store/actions";
 
 
@@ -14,21 +14,24 @@ class Main extends React.Component {
   render() {
     return (
       <Layout>
+        <Panel>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        <h1>{this.state.headLine}</h1>
+        </Panel>
         {/* <Toolbar></Toolbar> */}
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
-        <h1>{this.state.headLine}</h1>
+       
         <h1>{this.state.headLine}</h1>
         <h1>{this.state.headLine}</h1>
         <h1>{this.state.headLine}</h1>
